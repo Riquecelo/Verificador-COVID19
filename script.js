@@ -8,7 +8,8 @@ botaoVerificardor.addEventListener('click', function(e){
         return response.json(); 
     })
     .then(jsonBody => {
-        console.log(jsonBody)
+        document.querySelector('#res').innerHTML = jsonBody.OWID_WRL.data[2].total_cases
+        console.log(typeof jsonBody)
     })
     
 })
