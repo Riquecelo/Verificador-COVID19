@@ -13,7 +13,12 @@ botaoVerificardor.addEventListener('click', function(e){
     .then(jsonBody => {
         let inputVerif2 = inputVerif1;
         document.querySelector('#res').innerHTML = jsonBody.OWID_WRL.data[inputVerif2].total_cases;
-        console.log(jsonBody)
+        //console.log(jsonBody)
     })
     
+})
+
+var botaoRefresh = document.querySelector('#refresh');
+botaoRefresh.addEventListener('click', () => {
+    location.reload();
 })
