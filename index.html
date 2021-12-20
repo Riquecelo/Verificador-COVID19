@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D3 Challinge</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -15,23 +16,24 @@
                     <input type="number">
                     <button id="btn">Verificar</button>
                 </form>
+                <button id="refresh">Limpa Tela</button>
             </div>
            
             <div id="exibir">
                 <h3>Resultado</h3>
-                
-                <div id="dataD">Data
-                    <p class="dataDia"></p>
-                </div>
-                <div id="tCasos">Total de casos
-                    <p class="totalCasos"></p>
-                </div>
-                <div id="nCasos">Novos casos registrados
-                    <p class="novosCasos"></p>
-                </div>
-                
+                <div class="containerExibir">
+                    <div id="dataD">Data
+                        <p class="dataDia"></p>
+                    </div>
+                    <div id="tCasos">Total de casos
+                        <p class="totalCasos"></p>
+                    </div>
+                    <div id="nCasos">Novos casos registrados
+                        <p class="novosCasos"></p>
+                    </div>
+                </div>  
             </div>
-            <button id="refresh">Limpa Tela</button>
+            
         </section> 
     </main>
     <script src="script.js"></script>
