@@ -17,12 +17,11 @@ botaoVerificardor.addEventListener('click', function(e){
         }else{
             for (let index = 0; index < 4; index ++) {
                 
-                /*document.querySelector('#res').innerHTML = jsonBody.OWID_WRL.data[inputVerif2].total_cases;
+              /*document.querySelector('#res').innerHTML = jsonBody.OWID_WRL.data[inputVerif2].total_cases;
                 document.querySelector('#data').innerHTML = jsonBody.OWID_WRL.data[inputVerif2].date;
                 document.querySelector('#nRes').innerHTML = jsonBody.OWID_WRL.data[inputVerif2].new_cases;*/
 
                 let parg  = document.createElement('p');
-                
                 parg.innerHTML =`${inputVerif2}-> `+ jsonBody.OWID_WRL.data[inputVerif2].date;
                 var dataDia = document.querySelector('#dataD');   
                 dataDia.appendChild(parg);
@@ -36,7 +35,6 @@ botaoVerificardor.addEventListener('click', function(e){
                 parg3.innerHTML = jsonBody.OWID_WRL.data[inputVerif2].new_cases;
                 var novosCasos = document.querySelector('#nCasos');
                 novosCasos.appendChild(parg3);
-
 
                 let indexNum = inputVerif2--
             }

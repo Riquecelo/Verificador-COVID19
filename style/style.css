@@ -74,19 +74,6 @@ header h1{
      3px 3px 8px 0 rgba(0, 0, 0, 0.4),
      -2px -2px 6px 0 rgba(0, 0, 0, 0.5);
 }
-/*
-#form ol span{
-    width: 10px;
-    height: 30px;
-    border: 1px solid black;
-    position: absolute;
-    border-radius: 50px;
-    right: 0;
-    top: 0;
-    margin: auto ;
-    background-color: chartreuse;
-    display: none;
-}*/
 
 #form ol li{
     list-style: none;
