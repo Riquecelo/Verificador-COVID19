@@ -15,7 +15,6 @@
     #exibir{
         height: 50vh;
     }
-    
     #form ol{
         width: 90%;
     }
@@ -25,7 +24,6 @@
     #form p{
         width: 90%;
     }
-
     #dataD, #tCasos, #nCasos{
         height: 180px;
         width: 160px;
@@ -45,8 +43,7 @@
         width: 155px;
         font-size: 15px;
     }
-    #dataD p, #tCasos p, #nCasos p{
-        
+    #dataD p, #tCasos p, #nCasos p{       
         font-size: 10px;
     }
 }
@@ -58,7 +55,6 @@
     #exibir{
         height: 40vh;
     }
-    
     #form p{
         font-size: 12px;
     }
@@ -68,7 +64,6 @@
     #form ol li{
         font-size: 10px;
     }
-
     #dataD, #tCasos, #nCasos{
         height: 165px;
         width: 145px;

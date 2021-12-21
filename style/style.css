@@ -1,3 +1,4 @@
+/*******Configurações gerais*********/
 *{
     margin: 0;
     padding: 0;
@@ -17,11 +18,11 @@ main{
     width: 100vw;
     background-color: rgb(56, 56, 56);
 }
+
+/*******Configurações cabeçalho******/
 header{
     width: 100%;
     height: 50px;
-   /* position: absolute;
-    top: 0;*/
     background: rgba(255,255,255,0.1);
 }
 header h1{
@@ -30,6 +31,8 @@ header h1{
     font-size: 2em;
     text-align: center;
 }
+
+/*Configuração container conteúdo principal*/
 #container{
     display: flex;
     height: 80%;
@@ -39,14 +42,14 @@ header h1{
     8px 12px 8px 0 rgba(127, 255, 0, 0.5),
     -8px -8px 8px 0 rgba(127, 255, 0, 0.5);
     border-radius: 7px;
-    
 }
 #form, #exibir{
     height: 100%;
     width: 100%;
-    background-color: rgb(83, 83, 83);
-    
+    background-color: rgb(83, 83, 83);   
 }
+
+/*Configuração área do input conteúdo principal*/
 #form{
     display: flex;
     flex-direction: column;
@@ -60,10 +63,11 @@ header h1{
 #form p{
     width: 80%;
 }
-
 #form h4{
     margin-bottom: 8px;
 }
+
+/*Quadro informativo*/
 #form ol{
     width: 80%;
     font-size: 15px;
@@ -74,7 +78,6 @@ header h1{
      3px 3px 8px 0 rgba(0, 0, 0, 0.4),
      -2px -2px 6px 0 rgba(0, 0, 0, 0.5);
 }
-
 #form ol li{
     list-style: none;
     padding: 5px;
@@ -88,6 +91,7 @@ header h1{
     color: chartreuse;
 }
 
+/*Configuração do input e botões*/
 #form form input{
     width: 150px;
     height: 40px;
@@ -127,7 +131,7 @@ header h1{
     -4px -4px 6px 0 rgba(255, 255, 255, 0.9);
 } 
 
-
+/*Configuração área do resultado do conteúdo principal*/
 #exibir{
     display: flex;
     flex-direction: column;
@@ -139,18 +143,14 @@ header h1{
     width: 100%;
     align-items: center;
     justify-content: space-around; 
-    padding: 5px;
-    
+    padding: 5px;   
 }
 .containerExibir p{
-    color: chartreuse;
-    
+    color: chartreuse;   
 }
 .containerExibir span{
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
-
 #dataD, #tCasos, #nCasos{
     height: 250px;
     width: 160px;
