@@ -3,39 +3,75 @@
     main{
         height:100%;
     }
+    header h1{
+        font-size: 1.5em;
+    }
     #container{
         flex-direction: column;
-    
     }
-    #form, #exibir{
-        height: 50vh;}
+    #form{
+        height: 70vh;
+    }
+    #exibir{
+        height: 50vh;
+    }
+    
+    #form ol{
+        width: 90%;
+    }
+    #form ol li{
+        font-size: 12px;
+    }
+    #form p{
+        width: 90%;
+    }
 
     #dataD, #tCasos, #nCasos{
         height: 180px;
         width: 160px;
-    }
-    
-    #form ol span{
-        display: block;
-        cursor: pointer;
-    }
-    #form ol li{
-        display: none;
-    }
+    }    
 }
 /*
 @media (max-width: 768px) {
    
-}
+}*/
 
 @media (max-width: 600px) {
-    
+    header h1{
+        font-size: 1.2em;
+    }
+    #dataD, #tCasos, #nCasos{
+        height: 180px;
+        width: 155px;
+        font-size: 15px;
+    }
+    #dataD p, #tCasos p, #nCasos p{
+        
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 425px) {
+    #container{
+        width: 100%;
+    }
+    #exibir{
+        height: 40vh;
+    }
     
-}
+    #form p{
+        font-size: 12px;
+    }
+    #form ol{
+        width: 95%;
+    }
+    #form ol li{
+        font-size: 10px;
+    }
 
-@media (max-width: 320px) {
-    
-}*/
+    #dataD, #tCasos, #nCasos{
+        height: 165px;
+        width: 145px;
+        font-size: 10px;
+    }
+}
