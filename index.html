@@ -5,15 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D3 Challinge</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsivo.css">
 </head>
 <body>
+   
     <main>
+        <header>
+            <h1>Verificador do avanço da COVID-19</h1>
+        </header>
         <section id="container">
             <div id="form">
                 <h3>Verificador</h3>
+                <p>Verifica do avanço da COVID-19 Mundialmente durante a pandemia</p>
+
+                <ol>
+                    <h4>Funcionamento</h4><span id="btnList"></span>
+                    <li>Os dias serão contados em ordem crescente de acordo com o primeiro caso registrado</li>
+                    <li>O Verificador irá mostrar os últimos quatro dias referente ao dia escolhido</li>
+                    <li>Use o botão Limpa Tela para visualizar outras pesquisas</li>
+                </ol>
                 <form>
-                    <input type="number">
+                    <input type="number" placeholder="Digite aqui">
                     <button id="btn">Verificar</button>
                 </form>
                 <button id="refresh">Limpa Tela</button>
@@ -22,19 +35,23 @@
             <div id="exibir">
                 <h3>Resultado</h3>
                 <div class="containerExibir">
-                    <div id="dataD">Data
-                        <p class="dataDia"></p>
+                    <div id="dataD">
+                        <span>Data</span>
+                        <p class="textoInfo"></p>
                     </div>
-                    <div id="tCasos">Total de casos
-                        <p class="totalCasos"></p>
+                    <div id="tCasos">
+                        <span>Total de casos</span>
+                        <p class="textoInfo"></p>
                     </div>
-                    <div id="nCasos">Novos casos registrados
-                        <p class="novosCasos"></p>
+                    <div id="nCasos">
+                        <span>Novos casos</span>
+                        <p class="textoInfo"></p>
                     </div>
                 </div>  
             </div>
             
         </section> 
+        <footer></footer>
     </main>
     <script src="script.js"></script>
 </body>

@@ -22,8 +22,9 @@ botaoVerificardor.addEventListener('click', function(e){
                 document.querySelector('#nRes').innerHTML = jsonBody.OWID_WRL.data[inputVerif2].new_cases;*/
 
                 let parg  = document.createElement('p');
-                parg.innerHTML = jsonBody.OWID_WRL.data[inputVerif2].date;
-                var dataDia = document.querySelector('#dataD');
+                
+                parg.innerHTML =`${inputVerif2}-> `+ jsonBody.OWID_WRL.data[inputVerif2].date;
+                var dataDia = document.querySelector('#dataD');   
                 dataDia.appendChild(parg);
 
                 let parg2  = document.createElement('p');

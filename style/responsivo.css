@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 1020px) {
+    main{
+        height:100%;
+    }
+    #container{
+        flex-direction: column;
+    
+    }
+    #form, #exibir{
+        height: 50vh;}
+
+    #dataD, #tCasos, #nCasos{
+        height: 180px;
+        width: 160px;
+    }
+    
+    #form ol span{
+        display: block;
+        cursor: pointer;
+    }
+    #form ol li{
+        display: none;
+    }
+}
+/*
+@media (max-width: 768px) {
+   
+}
+
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 425px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}*/
