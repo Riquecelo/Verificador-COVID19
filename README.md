@@ -1,5 +1,5 @@
-# d3_challenge
-Teste Front-End D3
+# Verificador-COVID19
+
 
 ### Como visualizar
 Abrar o arquivo index.html com seu navegador padrão
